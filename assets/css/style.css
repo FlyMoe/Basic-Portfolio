@@ -36,14 +36,18 @@ header {
  	float: right;
  }
  footer {
- 	background-color: #666666;
+ 	background-color: #4aaaa5;
  	text-align: center;
  	height: 50px;
- 	padding-top: 25px;
  	float: left;
+ 	width: 100%;
+ 	color: white;
+
  }
  article {
+ 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
  	color: #777777;
+ 	padding-bottom: 20px;
  }
  nav {
  	float: right;
@@ -58,14 +62,24 @@ header {
  	color: #777777;
  	clear: left;
  }
- h3{
- 	padding-top: 30px;
+ hr {
+ 	width: 90%;
  }
- a:link{
+ a:link, a:visited{
  	color: #777777;
  	text-decoration: none;
  }
+ input, textarea {
+ 	margin-left: 20px;
+ }
+/* h4{
+ 	width: 200px;
+ 	height: 50px;
+ 	background-color: #4aaaa5;
+ 	z-index: 1;
+ }*/
  .name {
+ 	padding-top: 30px;
 	width: 170px;
 	height: 50px;
 	text-align: center;
@@ -76,6 +90,7 @@ header {
  }
  .title {
  	color: #4aaaa5;
+ 	padding-left: 20px;
  }
  .aqua {
  	background-color: #4aaaa5;
@@ -90,11 +105,75 @@ header {
     height: 30px;
  }
  .section {
- 	width: 650px;
+ 	width: 510px;
+ 	margin-left: 170px;
+ 	margin-top: 20px;
+ 	float: left;
  }
  .connect {
+ 	margin: 30px 40px 0px 0px;
  	width: 150px;
  	height: 120px;
- 	padding-left: 20px;
+ 	padding: 20px;
  	text-align: center;
+ 	float: right;
+ 	color: #4aaaa5;
+ }
+ .contact_div {
+ 	width: 450px;
+ 	margin-left: 170px;
+ 	margin-top: 20px;
+ 	float: left;
+ }
+ .submit {
+ 	background-color: #4aaaa5;
+ 	color: white;
+ 	padding: 10px 20px 10px 20px;
+ }
+ .label {
+ 	padding-left: 20px;
+ }
+ .footer{
+ 	margin-top: 10px;
+ 	background-color: #666666;
+ 	height: 50px;
+ 	padding-top: 5px;
+ 	width: 100%;
+ }
+ .about {
+ 	padding-left: 20px;
+ 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ 	color: #777777; 	
+ }
+ .image {
+ 	padding-left: 20px;
+ 	float: left;
+ }
+ #rpg {
+	width: 200px;
+ 	height: 50px;
+ 	background-color: #4aaaa5;
+ 	z-index: 2;
+ }
+ #hangman {
+	width: 200px;
+ 	height: 50px;
+ 	background-color: #4aaaa5;
+ 	z-index: 1;
+ 	float: left;
+ }
+ #homer {
+ 	float: left;
+ }
+ #abstract {
+ 	float: left;
+ }
+ #pond {
+ 	float: left;
+ }
+ #forrest {
+ 	float: right;
+ }
+ #parasailing {
+ 	float: left;
  }
